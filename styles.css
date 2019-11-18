@@ -102,6 +102,13 @@ body{
   height: auto;
   margin-bottom: 30px;
   padding-top: 10px;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.img:hover{
+  opacity: .5;
 }
 
 /* Page 2 et 3 */
@@ -146,36 +153,47 @@ body{
     padding-bottom: 18px;
 }
 
+.img1{
+  z-index: 1;
+}
+
 .img1 img{
   margin:0;
   width: 100%;
   height: auto;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
+
 
 .img1 img:hover{
   -webkit-transform: scale(1.3);
   transform: .3s ease-in-out;
 }
 
-.img1 img:nth-child(1){
-  margin-top: 50px;
+
+
+.img2{
+  z-index: 2;
 }
 
 .img2 img{
   margin:0;
   width: 100%;
   height: auto;
+  margin-top:30px;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .img2 img:hover{
   -webkit-transform: scale(1.3);
   transform: .3s ease-in-out;
+}
+.img3{
+  z-index: 1;
 }
 
 .img3 img {
@@ -184,7 +202,8 @@ body{
   height: auto;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  z-index: 2;
 }
 
 .img3 img:hover{
