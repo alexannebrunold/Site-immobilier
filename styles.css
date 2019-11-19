@@ -126,11 +126,11 @@ body{
   text-align: center;
   vertical-align: center;
   vertical-align: middle;
-  color: #2A2A2A;
+  background-color: #ffffff;
   padding-top: 15px;
   padding-bottom: 50px;
   margin:0;
-  color: #ffffff;
+  color: #2A2A2A;
 }
 
 @media (min-width:400px){
@@ -147,6 +147,18 @@ body{
     padding-top: 70px;
     padding-bottom: 30px;
     }
+    #slide1{
+      background: center 0 no-repeat fixed;
+    }
+    
+    #slide2{
+      background: url(Img/A.jpg) 0 no-repeat fixed;
+    }
+    
+    #slide3{
+      background: url(Img/A.jpg) center 0 no-repeat fixed;
+    }
+    
   }
 
 .ctn{
@@ -419,16 +431,5 @@ ul{
 
 /*Slide parallax*/
 
-@media (min-width:600px){
-  .p #slide1{
-  background: center 0 no-repeat fixed;
-}
 
-.p #slide2{
-  background: url(Img/A.jpg) 0 no-repeat fixed;
-}
-
-.p #slide3{
-  background: url(Img/A.jpg) center 0 no-repeat fixed;
-}
-}
+ 
