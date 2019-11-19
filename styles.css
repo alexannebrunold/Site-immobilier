@@ -3,7 +3,13 @@ body{
 }
 
 p{
-  color:#ffffff
+  color:#ffffff;
+  
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, ul{
+  font-family: 'Roboto', sans-serif;
 }
 /* Head */
 
@@ -18,6 +24,7 @@ h1{
   font-size: 24px;
   text-align: center;
   line-height: 28px;
+  font-family: 'Heebo', sans-serif;
 }
 
 @media (min-width:375px){
@@ -98,6 +105,8 @@ body{
    }
 }
 
+
+
 /* Image Background */
 
 .img {
@@ -125,13 +134,18 @@ body{
   line-height: 19px;
   text-align: center;
   vertical-align: middle;
-  background-color: #ffffff;
   padding-top: 10px;
   color: #2A2A2A;
   margin:0;
   border: black 0.5px solid;
+  color: #ffffff;
 }
 
+@media(max-width:700px){
+  .p{
+    background-color:#ffffff ;
+  }
+}
 @media (min-width:400px){
   .p{
     font-size: 21px;
@@ -152,7 +166,7 @@ body{
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;
-    background-color: #2B2B2B;
+  background-color: #2B2B2B;
    
 }
 
@@ -340,14 +354,14 @@ input[type="text"]{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding:2px;
+  padding:7px;
   font-size: 15px;
-  border: 2px solid #ddd;
+  border: 2px solid #2A2A2A;
   border-radius: 3px;
 }
 
 input.txt{
-  padding: 20px 5px 17px 0;
+  padding: 20px 12px 20px 12px;
   text-align: center;
 
 }
@@ -363,14 +377,14 @@ input.txt{
   justify-content: center;
   padding:2px;
   margin-top: 15px;
- 
   border: 2px solid #2A2A2A;
   
 }
 
 .button:hover{
   color: #fff;
-  background-color: #444;
+  background-color: #F8B500;
+  font-size: 17px;
 
 }
   .a{
@@ -404,12 +418,15 @@ ul{
   color: #ffffff;
 }
 
+.Copyright{
+  text-align: center;
+}
 @media (min-width:700px){
   h2{
-    font-size: 24px;
+    font-size: 21px;
   }
   ul{
-    font-size:18px;
+    font-size:16px;
     line-height: 30px;
   }
   li{
@@ -418,6 +435,17 @@ ul{
 }
 
 /*Slide parallax*/
-  
+@media (min-width:500px){
+ 
+#slide1{
+  background: url('Img/Img.jpg') 0 center no-repeat fixed;
+}
+#slide2{
+  background: url('Img/01.jpg') 0 center no-repeat fixed;
+}
+#slide3{
+  background: url('Img/02.jpg') 0 center no-repeat fixed;
+}
+}
 
  
