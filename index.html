@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Krub|Roboto+Mono&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="menu.js"></script>
 
@@ -43,13 +44,14 @@
 
     <figure>
       <!--Img Background-->
-      <img src="Img/Img.jpg" alt class="img">
+      <img src="Img/Img.jpg" alt class="img" id="slide1">
     </figure>
 
     <!--Page 2-->
     <section id="Page2">
-      <p class="p">Nos biens à vendre</p>
-
+      <div id="slide2">
+        <p class="p">Nos biens à vendre</p>
+      </div>
       <div class="ctn">
 
         <div class="img1">
@@ -89,8 +91,9 @@
     </section>
     <!--Page 3-->
     <section id="Page3">
-      <p class="p">Nos biens à louer</p>
-
+      <div id="slide3">
+        <p class="p">Nos biens à louer</p>
+      </div>
       <div class="ctn">
 
         <div class="img1">
@@ -141,15 +144,15 @@
         <!--Formulaire-->
 
         <form>
-          <label for="name">Nom</label>
+          <label for="name"></label>
           <input type="text" id="name" placeholder="Votre nom">
         </form>
 
-        <label for="email">Email</label>
+        <label for="email"></label>
         <input type="text" id="email" placeholder="Votre email">
         </form>
 
-        <label for="txt" class="txt">Nom</label>
+        <label for="txt" class="txt"></label>
         <input type="text" id="txt" placeholder="Votre texte" class="txt">
         </form>
 
