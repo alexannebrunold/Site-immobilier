@@ -418,7 +418,8 @@ ul{
 
 /*Slide parallax*/
 
-#slide1{
+@media (min-width:600px){
+  #slide1{
   background: center 0 no-repeat fixed;
 }
 
@@ -428,4 +429,5 @@ ul{
 
 #slide3{
   background: url(Img/A.jpg) center 0 no-repeat fixed;
+}
 }
