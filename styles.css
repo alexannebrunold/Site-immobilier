@@ -130,6 +130,7 @@ body{
   padding-top: 15px;
   padding-bottom: 50px;
   margin:0;
+  color: #ffffff;
 }
 
 @media (min-width:400px){
@@ -419,15 +420,15 @@ ul{
 /*Slide parallax*/
 
 @media (min-width:600px){
-  #slide1{
+  .p #slide1{
   background: center 0 no-repeat fixed;
 }
 
-#slide2{
+.p #slide2{
   background: url(Img/A.jpg) 0 no-repeat fixed;
 }
 
-#slide3{
+.p #slide3{
   background: url(Img/A.jpg) center 0 no-repeat fixed;
 }
 }
