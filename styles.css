@@ -190,8 +190,6 @@ body{
   transform: .3s ease-in-out;
 }
 
-
-
 .img2{
   z-index: 2;
 }
@@ -283,7 +281,6 @@ body{
 
 .price{
   margin-top: 15px;
-  margin-bottom:35px;
 }
 .textleft{
   text-align:left;
